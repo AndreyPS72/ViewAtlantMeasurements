@@ -1,0 +1,85 @@
+object fViewMeas: TfViewMeas
+  Left = 569
+  Height = 693
+  Top = 217
+  Width = 1533
+  Caption = 'View Atlant Measurement'
+  ClientHeight = 693
+  ClientWidth = 1533
+  Color = clBtnFace
+  DesignTimePPI = 120
+  Font.Color = clBlack
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Position = poScreenCenter
+  LCLVersion = '3.99.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 71
+    Top = 622
+    Width = 1533
+    Align = alBottom
+    ClientHeight = 71
+    ClientWidth = 1533
+    ParentBackground = False
+    TabOrder = 0
+    object Button1: TButton
+      Left = 549
+      Height = 51
+      Top = 8
+      Width = 195
+      Caption = 'Load'
+      Default = True
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object btnCopyToClipboard: TButton
+      Left = 788
+      Height = 51
+      Top = 8
+      Width = 269
+      Caption = 'Copy To Clipboard'
+      Enabled = False
+      OnClick = btnCopyToClipboardClick
+      TabOrder = 1
+    end
+    object FilenameEdit1: TFileNameEdit
+      Left = 16
+      Height = 29
+      Top = 16
+      Width = 501
+      FileName = '.\m3230315.001'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 2
+      Text = '.\m3230315.001'
+    end
+  end
+  object ChartMeas: TChart
+    Left = 0
+    Height = 622
+    Top = 0
+    Width = 1533
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    Legend.Visible = True
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+  end
+end
