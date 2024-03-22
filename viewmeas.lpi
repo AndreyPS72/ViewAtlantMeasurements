@@ -29,15 +29,17 @@
     </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="ViewMeas.lpr"/>
+        <Filename Value="viewmeas.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewMeas"/>
       </Unit>
       <Unit>
-        <Filename Value="ViewForm.pas"/>
+        <Filename Value="viewform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fViewMeas"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ViewForm"/>
       </Unit>
       <Unit>
         <Filename Value="Zamhdr.pas"/>

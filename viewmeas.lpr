@@ -9,6 +9,7 @@ uses
 {$R *.res}
 
 begin
+    Application.Title:='ViewMeas';
   Application.Initialize;
   Application.CreateForm(TfViewMeas, fViewMeas);
   Application.Run;

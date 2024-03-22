@@ -6,8 +6,9 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="ViewMeas.lpr"/>
+        <Filename Value="viewmeas.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewMeas"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="11"/>
         <UsageCount Value="21"/>
@@ -15,14 +16,15 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
-        <Filename Value="ViewForm.pas"/>
+        <Filename Value="viewform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fViewMeas"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ViewForm"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="64"/>
-        <CursorPos X="52" Y="80"/>
+        <CursorPos X="48" Y="80"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
