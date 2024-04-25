@@ -1,4 +1,5 @@
 
-lib/*
-.svn/*
+backup
+lib
+.svn
 viewmeas.lps
